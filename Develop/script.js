@@ -29,7 +29,7 @@ var generatePassword = function () {
   let tempLengthOfPassword = prompt("please enter a number from 8-128");
 
   //Checking if input is withing range of 8 and 128
-  if (num_leng >= 8 && num_leng <= 128) {
+  if (tempLengthOfPassword >= 8 && tempLengthOfPassword <= 128) {
  
     //Assign user input to lengthOfPassword
     lengthOfPassword = tempLengthOfPassword;
@@ -38,10 +38,10 @@ var generatePassword = function () {
   else {
     //Catch if user inputs out of range value
     alert("your input is invalid please try again")
-    writePassword();
+    generatePassword();
   }
 
-  //Llower case confirm code
+  //Lower case confirm code
   let isLowerCase = confirm("Do you want lower case ?")
   if (isLowerCase) {
     for (let i = lowCaseLow; i <= lowCaseMax; i++) {
@@ -70,7 +70,7 @@ var generatePassword = function () {
   //Special character confirm code
   let isSpecialCharacter = confirm("Do you want special characters ?");
   if (isSpecialCharacter) {
-    for (let i = lowSpecialCharacter1; i <= highSpecialCharacter4; i++) {
+    for (let i = lowSpecialCharacter; i <= highSpecialCharacter; i++) {
       if (i >= 48 && i >= 57) {
         continue;
       }
@@ -87,7 +87,7 @@ var generatePassword = function () {
   //Loop through the passwordTemp array (based of confirms)
   //Using math.random it will pick random ASCII number from passwordTemp and add it to finalPassword
   //Lastly using String.fromCharCode it will convert the number value back to its literal form
-  for (let i = 0; i < index; i++) {
+  for (let i = 0; i < lengthOfPassword; i++) {
     var randomLength = Math.floor(Math.random() * passwordTemp.length);
   
     finalPassword += String.fromCharCode(passwordTemp[randomLength]);
@@ -98,4 +98,4 @@ var generatePassword = function () {
 };
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+generateBtn.addEventListener("click", generatePassword);
