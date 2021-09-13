@@ -28,6 +28,12 @@ var generatePassword = function () {
   //Prompt for user to ender a password Length
   let tempLengthOfPassword = prompt("please enter a number from 8-128");
 
+  //Added code if you want to pick a random length given user input 
+  //  // if (tempLengthOfPassword >= 8 && tempLengthOfPassword <= 128) {
+  //   lengthOfPassword = Math.floor(Math.random() * (tempLengthOfPassword - 8) + 8);
+  //}
+
+
   //Checking if input is withing range of 8 and 128
   if (tempLengthOfPassword >= 8 && tempLengthOfPassword <= 128) {
  
@@ -74,7 +80,7 @@ var generatePassword = function () {
       if (i >= 48 && i >= 57) {
         continue;
       }
-      if (i >= 65 && i >= 122) {
+      if (i >= 65 && i <= 122) {
         continue;
       }
       else {
