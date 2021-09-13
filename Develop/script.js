@@ -23,16 +23,16 @@ var finalPassword = "";
 
 
 // Write password to the #password input
-function writePassword() {
+var generatePassword = function () {
 
   //Prompt for user to ender a password Length
   let tempLengthOfPassword = prompt("please enter a number from 8-128");
 
-//Checking if input is withing range of 8 and 128
+  //Checking if input is withing range of 8 and 128
   if (num_leng >= 8 && num_leng <= 128) {
  
-  //Assign user input to lengthOfPassword
-  lengthOfPassword = tempLengthOfPassword;
+    //Assign user input to lengthOfPassword
+    lengthOfPassword = tempLengthOfPassword;
 
   }
   else {
@@ -58,7 +58,7 @@ function writePassword() {
     
     }
   }
-    //Number case confirm code
+  //Number case confirm code
   let isNum = confirm("Do you want numbers characters ?");
   if (isNum) {
     for (let i = lowNum; i <= highNum; i++) {
@@ -67,18 +67,35 @@ function writePassword() {
     }
   }
 
+  //Special character confirm code
+  let isSpecialCharacter = confirm("Do you want special characters ?");
+  if (isSpecialCharacter) {
+    for (let i = lowSpecialCharacter1; i <= highSpecialCharacter4; i++) {
+      if (i >= 48 && i >= 57) {
+        continue;
+      }
+      if (i >= 65 && i >= 122) {
+        continue;
+      }
+      else {
+  
+        passwordTemp.push(i);
+      }
+    }
+  }
 
-
-
-
-
-
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
-
-  passwordText.value = password;
-
-}
+  //Loop through the passwordTemp array (based of confirms)
+  //Using math.random it will pick random ASCII number from passwordTemp and add it to finalPassword
+  //Lastly using String.fromCharCode it will convert the number value back to its literal form
+  for (let i = 0; i < index; i++) {
+    var randomLength = Math.floor(Math.random() * passwordTemp.length);
+  
+    finalPassword += String.fromCharCode(passwordTemp[randomLength]);
+  
+  }
+  
+  document.querySelector("#password").innerHTML = finalPassword;
+};
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
