@@ -1,5 +1,18 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
+//Create Ascii Highs and Lows
+//UpperCase
+upperCaseMax = 90;
+upperCaseLow = 65;
+//LowerCase
+lowCaseMax = 122;
+lowCaseLow = 97;
+//Num
+lowNum = 48;
+highNum = 57;
+//Special Character
+lowSpecialCharacter = 34;
+highSpecialCharacter = 126;
 
 // Write password to the #password input
 function writePassword() {
