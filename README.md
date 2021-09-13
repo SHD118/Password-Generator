@@ -36,8 +36,12 @@ This project was to build a random password generated. Due to the ongoing strugg
 
 ## Code_Breakdown
 
-![](/Assets/03-javascript-homework-demo.png)
-
+![](Assets/img1.PNG)
+![](Assets/img2.PNG)
+![](Assets/img3.PNG)
+![](Assets/img4.PNG)
+![](Assets/img5.PNG)
+![](Assets/img6.PNG)
 
 
 ## Contact_Infomration
@@ -48,7 +52,9 @@ Cell: 908-883-0191
 ```
 
 ## Credits
-
+https://www.petefreitag.com/cheatsheets/ascii-codes/
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode
+https://medium.com/nerd-for-tech/basics-of-javascript-string-fromcharcode-method-a35dd47124a0
 
 --- 
 
