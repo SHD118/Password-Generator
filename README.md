@@ -1,6 +1,6 @@
 # Password-Generator
 Randomly generates password based of citeria
-![](03-javascript-homework-demo.png)
+![](/Assets/03-javascript-homework-demo.png)
 
 ## Description
 This project was to build a random password generated. Due to the ongoing struggles to keep personal data secure a strong password is one of the first steps to stop people with malicious intent to hack into my personal accounts. This random password generated will help me keep a secure password with the ability to set on my own strength levels. This project is free for anyone to use so they themself can feel safe and protected from hackers.
