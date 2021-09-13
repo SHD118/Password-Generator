@@ -64,3 +64,5 @@ Cell: 908-883-0191
 This project is free use
 
 ## Links
+* https://shd118.github.io/Password-Generator/
+* https://github.com/SHD118/Password-Generator
