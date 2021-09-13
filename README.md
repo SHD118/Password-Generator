@@ -14,11 +14,10 @@ This project was to build a random password generated. Due to the ongoing strugg
 
 ## Table of Content
 - [Webpage](#webpage)
-- [Links](#links)
 - [Installation](#installation)
 - [Code_Breakdown](#code_breakdown)
-- [Credits_and_References](#credits_and_references)
 - [Contact_Information](#contact_infomration)
+- [Credits_and_References](#credits_and_references)
 - [License](#license)
 - [Links](#links)
 
