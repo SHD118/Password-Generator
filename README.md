@@ -53,10 +53,10 @@ Cell: 908-883-0191
 ```
 
 ## Credits_and_References
-https://www.petefreitag.com/cheatsheets/ascii-codes/
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode
-https://medium.com/nerd-for-tech/basics-of-javascript-string-fromcharcode-method-a35dd47124a0
-https://docs.google.com/presentation/d/13CYLVeXeEv09RGXRhnVGMy4KPnzEoqsaFxgJNndAEK0/edit?usp=sharing
+* https://www.petefreitag.com/cheatsheets/ascii-codes/
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode
+* https://medium.com/nerd-for-tech/basics-of-javascript-string-fromcharcode-method-a35dd47124a0
+* https://docs.google.com/presentation/d/13CYLVeXeEv09RGXRhnVGMy4KPnzEoqsaFxgJNndAEK0/edit?usp=sharing
 
 --- 
 
