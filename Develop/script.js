@@ -14,6 +14,14 @@ highNum = 57;
 lowSpecialCharacter = 34;
 highSpecialCharacter = 126;
 
+//Array to add from confirmations
+passwordTemp = [];
+
+//Variables
+var lengthOfPassword = 0;
+var finalPassword = "";
+
+
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
