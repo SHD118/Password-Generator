@@ -41,7 +41,14 @@ function writePassword() {
     writePassword();
   }
 
+  //lower casse confirm code
+  let isLowerCase = confirm("Do you want lower case ?")
+  if (isLowerCase) {
+    for (let i = lowCaseLow; i <= lowCaseMax; i++) {
 
+      passwordTemp.push(i);
+    }
+  }
 
 
 
