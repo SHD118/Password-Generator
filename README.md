@@ -36,12 +36,12 @@ This project was to build a random password generated. Due to the ongoing strugg
 
 ## Code_Breakdown
 
-![](Assets/img1.png)
-![](Assets/img2.png)
-![](Assets/img3.png)
-![](Assets/img4.png)
-![](Assets/img5.png)
-![](Assets/img6.png)
+![](Assets/img1.PNG)
+![](Assets/img2.PNG)
+![](Assets/img3.PNG)
+![](Assets/img4.PNG)
+![](Assets/img5.PNG)
+![](Assets/img6.PNG)
 
 
 ## Contact_Infomration
