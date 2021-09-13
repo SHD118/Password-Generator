@@ -41,7 +41,7 @@ function writePassword() {
     writePassword();
   }
 
-  //lower casse confirm code
+  //Llower case confirm code
   let isLowerCase = confirm("Do you want lower case ?")
   if (isLowerCase) {
     for (let i = lowCaseLow; i <= lowCaseMax; i++) {
@@ -49,8 +49,23 @@ function writePassword() {
       passwordTemp.push(i);
     }
   }
+  //Upper case confirm code
+  let isUppercase = confirm("Do you want upper case ?")
+  if (isUppercase) {
+    for (let i = upperCaseLow; i <= upperCaseMax; i++) {
+  
+      passwordTemp.push(i);
+    
+    }
+  }
+    //Number case confirm code
+  let isNum = confirm("Do you want numbers characters ?");
+  if (isNum) {
+    for (let i = lowNum; i <= highNum; i++) {
 
-
+      passwordTemp.push(i);
+    }
+  }
 
 
 
